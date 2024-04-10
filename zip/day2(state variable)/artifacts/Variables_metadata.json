@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day2(state variable)/state_variable.sol": "Variables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day2(state variable)/state_variable.sol": {
+			"keccak256": "0xee76b4280af228f2ec0c6d725f5779db74f94ca8953de81acc9b238b900d9f29",
+			"license": "GPT-3.0",
+			"urls": [
+				"bzz-raw://7ccf0a2dd4a6ceb2e5f6074d99501d65ef30a7fb34ab60643147465f7324d1d7",
+				"dweb:/ipfs/QmcfvjkPm9r1bfidxvndt8qo3F343URoGoh2RKte74WJ7e"
+			]
+		}
+	},
+	"version": 1
+}
