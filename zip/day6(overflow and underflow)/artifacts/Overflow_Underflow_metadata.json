@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day6(overflow and underflow)/overflow.sol": "Overflow_Underflow"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day6(overflow and underflow)/overflow.sol": {
+			"keccak256": "0x5fa3f7b02ca47b98efbc66753df17707ffa49077c039cb7d75576fb0692499b0",
+			"urls": [
+				"bzzr://5cd0a09749b73310a36d6dbf8a3a124c4327b09493898b2883028b2cccad030b"
+			]
+		}
+	},
+	"version": 1
+}
