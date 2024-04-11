@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "Age",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day5(constructor)/constructor.sol": "Constructor"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day5(constructor)/constructor.sol": {
+			"keccak256": "0x63482f50be74698f1519ac73cae9c7d871c73a8c05c75372b9c4c598bfc5c643",
+			"urls": [
+				"bzzr://02b6055bd7ce34d7d155b9f5af1835469a8f2651f599b10d2196a84fdc1050e0"
+			]
+		}
+	},
+	"version": 1
+}
