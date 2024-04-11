@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "b2",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes2"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "b4",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "b3",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes3"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day9(byte array)/byte.sol": "ByteArray"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day9(byte array)/byte.sol": {
+			"keccak256": "0x8204525121971a0e1bfc786bf50cd15d7111adb6c823315288778d3720f0af9d",
+			"urls": [
+				"bzzr://e75794f2eb22db9dd6d65b90a166b1db7d68773b998d59c4c1ee80657bf5e6e7"
+			]
+		}
+	},
+	"version": 1
+}
