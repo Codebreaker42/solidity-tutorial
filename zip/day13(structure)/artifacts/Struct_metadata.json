@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_rollNo",
+						"type": "uint256"
+					},
+					{
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "changeDetails",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_rollNo",
+						"type": "uint256"
+					},
+					{
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day13(structure)/structure.sol": "Struct"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day13(structure)/structure.sol": {
+			"keccak256": "0x21d53201744dfc88be58f59673fe36ae0b5fe49cdae23463572d1c5c2e89b281",
+			"urls": [
+				"bzzr://9931db1aeba0a258adef6dfa7a635a3c291f365c174023a9bf16a3b33f7214a4"
+			]
+		}
+	},
+	"version": 1
+}
