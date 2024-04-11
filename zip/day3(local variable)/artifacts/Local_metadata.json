@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "setAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day3(local variable)/local.sol": "Local"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day3(local variable)/local.sol": {
+			"keccak256": "0xb0c9b61dae171e9140ae2271a8262119fc29a56af38a2c8a89abd67d6f6eb7f8",
+			"license": "GPT-3.0",
+			"urls": [
+				"bzz-raw://d4c8de531e703915ccc2f823b5a5016620b9b1bcfde1f7bb5c5f10ae8ef1a53c",
+				"dweb:/ipfs/QmdZFbo8ibvQixUSDhaiXhEjci1c2WKXiT3LAUvFW4yMr8"
+			]
+		}
+	},
+	"version": 1
+}
