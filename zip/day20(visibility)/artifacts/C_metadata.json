@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "c",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "d",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day20(visibility)/visibility.sol": "C"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day20(visibility)/visibility.sol": {
+			"keccak256": "0x1a54e19165e54b372bc7d1418bb3d47b2da0f501a06c56e7a9d937557555d27d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40c450b4d735d1d07debb1083a8d735a1fe476c33ba5394cc0820f6611b4a2b4",
+				"dweb:/ipfs/Qma7Mx8bPmr7soA5HNNgukvq2iQrAieCXfDZPa6Lg5quFe"
+			]
+		}
+	},
+	"version": 1
+}
