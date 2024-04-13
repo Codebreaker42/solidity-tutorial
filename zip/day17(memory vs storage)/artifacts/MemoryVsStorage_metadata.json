@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeOne",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "changeTwo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day17(memory vs storage)/memoryVSstorage.sol": "MemoryVsStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day17(memory vs storage)/memoryVSstorage.sol": {
+			"keccak256": "0xda18b4031f671fbc98206cd534c6587b168d93dd9690835761dca35b18b8cfba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2e9886268d9e87dd3c86d8dc83755334bb9a16cbdccbd5aa82dc60e87fe846d",
+				"dweb:/ipfs/QmZ8oRhhKhEFsqjP1zeVjyk2NujdRWvr1yBH6kptAqALa2"
+			]
+		}
+	},
+	"version": 1
+}
